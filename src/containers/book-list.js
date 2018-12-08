@@ -33,7 +33,7 @@ function mapStateToProps(state) {
 }
 
 // Anything returned from this function will end up as props
-//on the BookList container
+// on the BookList container
 function mapDispatchToProps(dispatch) {
     //whenever selectBook is called, the result should be passed
     //to all of our reducers
